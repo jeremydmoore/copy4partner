@@ -29,7 +29,7 @@ del allFileTypes[0]
 
 # Open a window to choose the files to copy
 copyList = eg.multchoicebox(msg='Select the file types to copy',
-							choices=(allFileTypes))
+				choices=(allFileTypes))
 
 # List comprehension adds the asterisk for glob
 # while making an ignore list for copytree
