@@ -6,4 +6,7 @@ from one location to another.
 
 The source and destinations dirs are prompted for and the user selects the file types while running the program.
 
-Needed fixes: need to switch from easygui to Tkinter to keep everything pure Python, need to make is a *.exe
+Changes to make:
+1. need to switch from easygui to Tkinter
+2. find and delete all empty folders
+3. convert it with py2exe so my Windows peeps can use it to copy files from the network
